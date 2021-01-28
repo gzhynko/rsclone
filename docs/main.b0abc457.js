@@ -25,4 +25,4 @@ var t,e=require("process"),i=arguments[3];!function(e,i){"object"==typeof export
 },{"phaser":"E66h","../gameobjects/Ship":"N15C","../gameobjects/Player":"Bxxb","../JumpManager":"OE40","../AudioManager":"fmiK","../gameobjects/UI":"jPt3"}],"ZCfc":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=a(require("phaser")),t=a(require("./scenes/MainScene"));function a(e){return e&&e.__esModule?e:{default:e}}var s=4,r={type:e.default.AUTO,width:480,height:270,physics:{default:"arcade",arcade:{gravity:{y:200}}},pixelArt:!0,zoom:s,scene:[t.default],callbacks:{postBoot:function(e){e.canvas.style.width="95%",e.canvas.style.height="95%",e.canvas.style.objectFit="contain"}}},c=new e.default.Game(r);exports.default=c;
 },{"phaser":"E66h","./scenes/MainScene":"liDP"}]},{},["ZCfc"], null)
-//# sourceMappingURL=/main.b0abc457.js.map
+//# sourceMappingURL=main.b0abc457.js.map
