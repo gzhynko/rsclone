@@ -1,0 +1,14 @@
+{
+  "idleoff": {
+    "frames": [ 0, 1, 2 ],
+    "fps": 3
+  },
+  "idleon": {
+    "frames": [ 6, 7, 8 ],
+    "fps": 3
+  },
+  "powerup": {
+    "frames": [ 3, 4, 5 ],
+    "fps": 7
+  }
+}
