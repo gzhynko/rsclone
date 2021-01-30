@@ -1,2 +1,2 @@
 ## rsclone
-See USAGE.md for information on usage and credits.
+See [USAGE.md](./USAGE.md) for information on usage and credits.
