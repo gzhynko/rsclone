@@ -21,7 +21,7 @@ export default class Ship extends Phaser.GameObjects.Group {
     this.captainsChairOutline = new Phaser.GameObjects.Sprite(scene, 460, 123, chairOutlineTexture);
     this.captainsChairOutline.setVisible(false);
 
-    let fuelHatch = new Phaser.GameObjects.Sprite(scene, 432, 116, fuelHatchTexture, 0);
+    const fuelHatch = new Phaser.GameObjects.Sprite(scene, 432, 116, fuelHatchTexture, 0);
     fuelHatch.anims.create({ 
       key: 'idle',
       frames: this.scene.anims.generateFrameNumbers(fuelHatchTexture, {
@@ -33,7 +33,7 @@ export default class Ship extends Phaser.GameObjects.Group {
     });
     fuelHatch.play('idle');
 
-    let techStation = new Phaser.GameObjects.Sprite(scene, 360, 116, techStationTexture, 0);
+    const techStation = new Phaser.GameObjects.Sprite(scene, 360, 116, techStationTexture, 0);
     techStation.anims.create({ 
       key: 'idle',
       frames: this.scene.anims.generateFrameNumbers(techStationTexture, {

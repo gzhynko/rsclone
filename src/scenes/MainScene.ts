@@ -132,7 +132,7 @@ export default class MainScene extends Phaser.Scene
   }
 
   setUpEvents(): void {
-    this.input.keyboard.on('keydown-E', (_event: any) => {
+    this.input.keyboard.on('keydown-E', () => {
       if(!this.ship.canInteractWithChair(this.player.getCenterX()) || this.jumpManager.jumpInProgress) return;
 
       this.jumpManager.jump();
